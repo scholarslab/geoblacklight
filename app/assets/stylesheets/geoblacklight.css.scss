@@ -2,3 +2,25 @@
 *= require geoblacklight/application
 *= require blacklight_range_limit
 */
+
+@font-face {
+  font-family: "uva";
+  src: font-url("uva.eot");
+  src: font-url("uva.eot?#iefix") format("embedded-opentype"),
+  font-url("uva.woff") format("woff"),
+  font-url("uva.ttf") format("truetype"),
+  font-url("uva.svg#geoblacklight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "uva";
+    src: font-url("uva.svg#uva") format("svg");
+  }
+}
+
+.geoblacklight-uva:before {
+  content: "\e600";
+}
