@@ -22,5 +22,21 @@
 }
 
 .geoblacklight-uva:before {
-  content: "\e600";
+  display: inline-block;
+  font-family: "geoblacklight";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
+
+.geoblacklight-uva:before { content: "\e600"; }
+
+$font-geoblacklight-uva: "\e600";
+
