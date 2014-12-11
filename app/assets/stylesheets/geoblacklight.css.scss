@@ -3,17 +3,37 @@
 *= require blacklight_range_limit
 */
 @font-face {
-  font-family: 'Icomoon';
-  src:url('icomoon.eot');
-  src:url('icomoon.eot?#iefix') format('embedded-opentype'),
-    url('icomoon.svg#icomoon') format('svg'),
-    url('icomoon.woff') format('woff'),
-    url('icomoon.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'uva';
+	src:url('uva.eot');
+	src:url('uva.eot?#iefix') format('embedded-opentype'),
+		url('uva.woff?') format('woff'),
+		url('uva.ttf?') format('truetype'),
+		url('uva.svg?#uva') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="geoblacklight-"], [class*=" geoblacklight-"] {
+	font-family: 'uva';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .geoblacklight-uva:before {
-    content: "\e600";
+	content: "\e600";
+  display: inline-block;
+  text-decoration: inherit;
+  font-size: 25px;
+  padding: 0;
 }
+
+
 
