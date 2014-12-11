@@ -2,41 +2,18 @@
 *= require geoblacklight/application
 *= require blacklight_range_limit
 */
-
 @font-face {
-  font-family: "uva";
-  src: font-url("uva.eot");
-  src: font-url("uva.eot?#iefix") format("embedded-opentype"),
-  font-url("uva.woff") format("woff"),
-  font-url("uva.ttf") format("truetype"),
-  font-url("uva.svg#geoblacklight") format("svg");
+  font-family: 'Icomoon';
+  src:url('icomoon.eot');
+  src:url('icomoon.eot?#iefix') format('embedded-opentype'),
+    url('icomoon.svg#icomoon') format('svg'),
+    url('icomoon.woff') format('woff'),
+    url('icomoon.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "uva";
-    src: font-url("uva.svg#uva") format("svg");
-  }
 }
 
 .geoblacklight-uva:before {
-  display: inline-block;
-  font-family: "geoblacklight";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-decoration: inherit;
-  text-rendering: optimizeLegibility;
-  text-transform: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+    content: "\e600";
 }
-
-.geoblacklight-uva:before { content: "\e600"; }
-
-$font-geoblacklight-uva: "\e600";
 
