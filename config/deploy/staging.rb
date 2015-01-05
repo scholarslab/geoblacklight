@@ -17,6 +17,7 @@
 
 server 'geoblacklight.lib.virginia.edu', user: 'wsg4w', roles: %w{web app db}
 
+after deploy:publishing
 
 # Custom SSH Options
 # ==================

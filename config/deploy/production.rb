@@ -10,6 +10,8 @@
 
 server 'geoblacklight.lib.virginia.edu', user: 'wsg4w', roles: %w{web app db}
 
+after deploy:publishing
+
 # Extended Server Syntax
 # ======================
 # This can be used to drop a more detailed server definition into the
