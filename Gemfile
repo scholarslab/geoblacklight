@@ -46,7 +46,7 @@ gem "devise"
 gem "devise-guests", "~> 0.3"
 
 group :development do
-  gem 'capistrano', '~> 3.3.3'
+  gem 'capistrano', '~> 3.3'
   gem 'capistrano-passenger', '~> 0.0.1'
   gem 'capistrano-rvm'
   gem 'capistrano-bundler', '~> 1.1.2'
